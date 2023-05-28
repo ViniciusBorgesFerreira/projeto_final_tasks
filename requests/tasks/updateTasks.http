@@ -1,0 +1,12 @@
+@HOST = http://localhost:8080
+
+PUT {{HOST}}/tasks HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1M2JmZjZjLTQzNzUtNDA4OS1iMmU4LTM3YjAzN2U2Yzc1ZiIsIm5hbWUiOiJhZ29yYXZhaU1FU01PMiIsImVtYWlsIjoiYWdvcmF2YWlNRVNNTzJAbWFydGlucy5jb20iLCJpYXQiOjE2ODUyOTUzMDcsImV4cCI6MTY4NTMxMzMwN30.Pm2KGhDB1UwglO0YbtFo26aWFu0W17nT6uvaK3DKsmw
+
+{ 
+    "id":"f456f580-30a2-4789-8abb-4e6815c06859",     
+    "title":"lerolero",
+    "description": "daledale",
+    "completed": false
+}

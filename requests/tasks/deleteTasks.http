@@ -1,0 +1,9 @@
+@HOST = http://localhost:8080
+
+DELETE {{HOST}}/tasks HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxZDI5M2E4LTNmZjctNDI5Mi1hNDBhLTM5OTY2YTdhZjQ5MSIsIm5hbWUiOiJhZ29yYXZhaU1FU01PIiwiZW1haWwiOiJhZ29yYXZhaU1FU01PQG1hcnRpbnMuY29tIiwiaWF0IjoxNjg1Mjc2MTE3LCJleHAiOjE2ODUyOTQxMTd9.x52N9AtKYj-kPBwlHl8Fx5U2uPOmWRh0pa7toB-vbHg
+
+{ 
+    "id":"8875d869-2215-4352-8250-859b810f4a47"     
+}
